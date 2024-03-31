@@ -41,38 +41,7 @@ nav{
     font-weight: 800;
     margin-bottom: 2vw;
 }
-.nav-bottom{
-    height: 0%;
-    width: 80%;
-    /* background-color: red; */
-    position: absolute;
-    transition: all ease 0.67s;
-    bottom: 0%;
-    border-bottom: 1px solid #dadada;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2vw 15vw;
-    padding-top: 3vw;
-    /* padding-left: 18vw; */
-}
-.bottom-div h5 {
-    /* background-color: red; */
-    overflow: hidden;
-    /* background-color: red; */
-    margin-bottom: 0.5vw ;
-}
-.bottom-div h5 span{
-    font-size: 0.8vw;
-    display: inline-block;
-    font-weight: 500;
-    opacity: 0;
-}
-nav:hover .nav-bottom {
-    height: 180%;
-    bottom: -180%;
-    background-color: #111;
-}
+
 
 nav button{
     background-color: #0DA34E;
