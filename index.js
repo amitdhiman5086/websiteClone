@@ -41,7 +41,7 @@ function navAnimation() {
 }
 
 
-// navAnimation() ;
+navAnimation() ;
 
 function page2Animation(){
     var relem = document.querySelectorAll(".right-elem");
@@ -70,4 +70,4 @@ relem.forEach(function (elem) {
 })
 }
 
-// page2Animation() ;
+page2Animation() ;
