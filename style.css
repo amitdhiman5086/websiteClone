@@ -244,3 +244,63 @@ nav button svg{
 
     position: absolute;
 }
+
+#page-3{
+    height: 100vh;
+    width: 100%;
+    background-color:#111;
+    position: relative;
+    background-image: url(Screenshot\ 2024-04-14\ 112609.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3-centre{
+    /* background-color: red; */
+    border-radius: 50px;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page3-centre h5{
+    font-size: 0.8vw;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    margin-top: 1vw;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all ease 0.5s;
+    transform: translateY(10%);
+    /* background-color: red; */
+}
+#page3-centre:hover h5{
+    opacity: 1;
+    transform: translateY(0%);
+}
+#icon i{
+   color: black;
+   font-size: 2.8vw;
+}
+#icon{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3vw;
+    border-radius: 50%;
+}
+#page-3 video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: scaleX(0.7) scaleY(0);
+    opacity: 0;
+    border-radius: 30px;
+    z-index: 9999;
+}
